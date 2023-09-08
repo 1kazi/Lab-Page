@@ -339,6 +339,14 @@ body {
   background-size: contain;
 }
 
+.text-ellipsis{
+  display: -webkit-box;
+  -webkit-line-clamp: 3; 
+  -webkit-box-orient: vertical;
+  overflow: hidden;
+  text-overflow: ellipsis;
+}
+
 .mb-accordion .accordion-button {
   border-radius: 38.5px;
   background: #FFF;
